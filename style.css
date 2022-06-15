@@ -26,11 +26,13 @@ body {
 .header-links a {
     text-decoration: none;
     color: white;
+    font-size: 20px;
 }
 
 .header-links {
     display: flex;
     gap: 15px;
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -82,6 +84,7 @@ main-2 {
     flex-direction: column;
     text-align: left;
     margin-right: 60px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* content */
@@ -89,17 +92,20 @@ main-2 {
     display: flex;
     align-items: center;
     flex-direction: column;
+    
 }
 
 .crew h2 {
     font-size: 36px;
     color: #1f2937;
     font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
 
 .crew-info p {
         color: #1f2937;
         text-align: center;
+        font-family: 'Merriweather', serif;
 }
 
 .crew-info {
@@ -130,12 +136,14 @@ main-2 {
     font-weight: light;
     color: #1f2937;
     font-style: italic;
+    font-family: 'Roboto', sans-serif;
 }
 
 .quote-credit {
     text-align: right;
     font-weight: normal;
     font-style: normal;
+    font-family: 'Merriweather', serif;
 }
 
 .blockquote{
@@ -153,13 +161,15 @@ main-2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
 }
 
 .sign-text {
     line-height: 5px;
     text-align: left;
     /* margin-left: 50px; */
-    margin: 10px auto 10px 50px;
+    margin: 10px 10px 10px 50px;
+    /* flex-wrap: wrap; */
 }
 
 .sign-text p {
@@ -183,6 +193,7 @@ h3 {
 
 .footer {
     background-color: #1F2937;
+    font-family: 'Roboto', sans-serif;
 }
 
 .footer p{
