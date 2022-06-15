@@ -165,11 +165,8 @@ main-2 {
 }
 
 .sign-text {
-    line-height: 5px;
     text-align: left;
-    /* margin-left: 50px; */
-    margin: 10px 10px 10px 50px;
-    /* flex-wrap: wrap; */
+    margin: 10px 50px 10px 50px;
 }
 
 .sign-text p {
